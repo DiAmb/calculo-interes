@@ -23,8 +23,8 @@ Antes de empezar, asegúrate de tener instalados:
 
 1. **Clona el repositorio**  
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo/backend
+   git clone https://github.com/DiAmb/calculo-interes.git
+   cd calculo-interes
    ```
 
 2. **Configura la base de datos**  
@@ -46,7 +46,7 @@ Antes de empezar, asegúrate de tener instalados:
 
 1. **Ve al directorio del frontend**  
    ```bash
-   cd tu-repo/frontend
+   cd calculo-interes-frontend
    ```
 
 2. **Instala dependencias**  
