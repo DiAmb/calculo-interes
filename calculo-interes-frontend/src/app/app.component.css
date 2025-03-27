@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(135deg, #f4dcdc, #ded8fe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+footer {
+  margin: 2rem 0;
+  font-size: 0.75rem;
+  color: #333;
+}

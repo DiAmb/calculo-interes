@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>CÁLCULO DE INTERÉS COMPUESTO</h2>
+  <form [formGroup]="form" (ngSubmit)="calcular()">
+    <label>Monto Inicial (Q):</label>
+    <input type="number" formControlName="montoInicial" required>
+
+    <label>Tasa de Interés (%):</label>
+    <input type="number" formControlName="tasaInteres" required>
+
+    <label>Años:</label>
+    <input type="number" formControlName="anios" required>
+
+    <button type="submit" [disabled]="form.invalid">Calcular</button>
+  </form>
+
+  <canvas *ngIf="mostrarGrafico" baseChart [datasets]="datasets" [labels]="labels" [options]="options" [type]="'bar'">
+  </canvas>
+</div>
